@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="dining2.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ROYAL OAK: DINING</title>
+
+    <link rel="icon" type="img/png" href="images/icons/logo-removebg.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;700&family=Inconsolata:wght@300;400;600;700;800&family=
+    Poppins:wght@100;200;300;400;600;700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/471c4e19ff.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/dining.css">
+
+</head>
+<body style="background-image: url('images/cafe/images (1).jpeg'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
+
+	<!-- header section begin -->
+	<!---Header-->
+        <header>
+        <div class="nav-position" style="position: sticky; top: 0;">
+            <div>
+                <img class="logoimg" src="images/icons/logo-removebg.png" alt="logo" ></img>
+            </div>
+
+            <div class="nav" style="background: linear-gradient(to right, #00093c, #2d0b00) ; height: 76.5px;">
+                <ul>
+                    <div class="topnav">
+                        <li><a class="active" href="../Register/Home.html"> HOME </a></li>
+                        <li><a href="../booking/about.html"> ABOUT </a></li>
+                        <li><a href="dining.html"> DINING </a></li>
+                        <li><a href="../events/events.html"> EVENTS </a></li>
+                        <li><a href="../booking/booking.php"> BOOK NOW </a></li>
+                        <li><a href="../contact/contact.html">CONTACT</a></li>
+                    </div>
+                    
+                    <div id="log_sign"> 
+                        <li class="log">
+                            <button class="login-button">
+                                <a href="../Register/login.html" style="text-decoration: none;">Login
+                                </a>
+                            </button>
+                        </li>
+                        <li class="sign">
+                            <button class="signup">
+                                <a href="../Register/Register.html">
+                                    Sign Up
+                                </a>
+                            </button>
+                        </li>
+                    </div> 
+                </ul>
+            </div>
+        </div>
+    </header>          
+    <!----Header End-->
+
+	<br><br><br><br><br>
+
+	<div id="part1_container">
+		<h2>DINING AT ROYAL OAK</h2>
+		<p id="part2_para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, </p>
+	</div>
+
+	<br><br>
+
+	<div id="part2_container">
+
+		<div id="_1st_dection_of_part2">
+
+			<div id="restaurant1">
+				<img class="part2_section1_imgs" src="images/dining/dining2.jpg" alt="image of restaurant1">
+                <h4>Epicurean Bistro</h4>
+				
+
+			</div>
+			<div id="restaurant2">
+				<img class="part2_section1_imgs" src="images/resturant/bar2.jpg" alt="image of restaurant2">
+				<h4>Tonic Tavern</h4>
+			</div>
+		</div>
+
+		<div id="_2nd_dection_of_part2">
+
+			<div id="restaurant3" style="margin-bottom: 20px;">
+				<img class="part2_section2_imgs" src="images/resturant/italian1.jpg" alt="image of restaurant3">
+				<h4>Trattoria Gastronomia</h4>
+			</div>
+			<div id="restaurant4"> 
+				<img class="part2_section2_imgs" src="images/cafe/cafe1.jpg" alt="image of restaurant4">
+				<h4>Coffee Shop</h4>
+			</div>
+		</div>
+	</div>
+
+    <br><br>
+
+     
+
+    <br><br>
+    <style>
+        /* CSS to style the button-like container */
+        .button-container {
+          cursor: pointer;
+          background-color:rgb(63, 62, 62); /* Change the background color to your preference */
+          color: #fff; /* Change the text color to your preference */
+          padding: 100px 200px;
+          border-radius: 5px;
+          text-align: center;
+        }
+      </style>
+      
+      
+      
+      <div class="button-container" id="form-button" style="cursor: default !important;">
+        <img src="images/dining/my.jpeg" alt="Inquire Icon" class="button-icon">
+        
+        <div id="div_for_click_here_button">
+            <button class="click_here_button"><h2>I N Q U I R E    N O W</h2></button>
+        </div>
+      </div>
+    
+        
+        
+
+      </div>
+      <div id="part3_main_container">
+        <!-- Rest of your form code remains the same -->
+        <!-- ... -->
+      </div>
+      <div id="textField" style="display: none; background-color: transparent;">
+        <div id="part3_main_container" >
+    
+            <div class="name">
+            <form action="dining.php"  method="POST" >
+             <br>
+                
+                    <strong>
+                
+                    <label style="margin-left:50px; ">TITLE*</label>
+        
+                        <select  placeholder="Please Select" style="width:150px;" name="title" >
+        
+                            <option value="rev">Rev.</option>
+                            <option value="dr">Dr.</option>
+                            <option value="mr">Mr.</option>
+                            <option value="mrs">Mrs.</option>
+                            <option value="miss">Miss.</option>
+        
+                        </select>
+        
+                    <label style="margin-left:40px; ">FIRST NAME*</label>
+        
+                    <input  type="text" name="Firstname">
+        
+                    <label style="margin-left:40px; ">LAST NAME*</label>
+        
+                    <input  type="text" name="Lastname" style="width:144px;" >
+                
+                <br>
+                <br>
+            
+        
+                    <label style="margin-left:50px; ">EMAIL*</label>
+        
+                    <input type="Email" name="email">
+        
+                    <label style="margin-left:40px; ">PHONE*</label>
+        
+                    <input type="Phone"  name="phone" style="width:150px;">
+        
+                    <label style="margin-left:75px; ">COUNTRY*</label>
+        
+                    <select style="width:150px;" name="country">
+        
+                        <option value="SriLanka">SriLanka</option>
+                        <option value="India">India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Italy">Italy</option>
+        
+                   </select>
+        
+                   <br>
+                   <br>
+    
+                   <label style="margin-left:50px; " >RESTAURANT*</label>
+                   
+    
+                   <select style="width:150px;" name="resturant">
+    
+                        <option value="Lunch Buffet">Lunch Buffet</option>
+                        <option value="Dinner Buffet">Dinner Buffet</option>
+                        <option value="Epicuren Bistro">Epicuren Bistro</option>
+                        <option value="Trattoria Tavern">Trattoria Tavern</option>
+                        <option value="Coffee Shop">Coffee Shop</option>
+                        <option value="Tonic Tavern">Tonic Tavern</option>
+    
+                   </select>
+    
+                   
+    
+                   <label style="margin-left:50px; " >DATE*</label>
+    
+                   <input type="date" name="date_in">
+    
+                   <label style="margin-left:50px; " >TIME*</label>
+    
+                   <input type="Time" name="">
+    
+                
+                   <br>
+                   <br>
+        
+        
+                   <label style="margin-left:50px; ">MESSAGE*</label>
+        
+                   <br>
+        
+                  <textarea rows="15" cols="108" style="margin-left:70px;" name="msg">
+        
+                  </textarea>
+        
+                   <br>
+                   <br>
+                   <p>By giving your confirmation you explicitly give consent for us to store and use this information to service your requests.</p><br><br>
+    
+                    <p>If you do not consent we will not store any personal information and will only send an email with the relevant details in order to service your requests.</p>
+            
+                    <br>
+                  
+                 <input style="margin-left:50px; "  type="checkbox" id="abc" onclick="checkme()" name="confirm"><b style="font-size: 15px; text-transform:none;" >  I confirm I have read and given consent for the above</b><br>
+                    <p style="color:red; margin-left:70px; font-size: 10px; text-transform:none; display:blocked " id="msg">Please accept the button before submit</p>
+                 
+                    <br>
+                  
+                  <button type="submit" style="margin-left:50px; margin-bottom: 50px; " class="bttn" id="btn"  onclick="display();" name="submit_inq">SUBMIT</button>
+        
+                </strong>
+                
+        
+               </form>
+
+            <form  action="read.php">
+
+                <button type="submit"  style="margin-left:300px; margin-bottom: 50px; " class="btnlast" id="btnlast" >EDIT</button>
+            
+            </form>
+            </div>
+        </div>
+        
+      </div>
+      
+      <script>
+        // JavaScript to toggle the visibility of the form
+        document.getElementById("form-button").addEventListener("click", function () {
+          var formContainer = document.getElementById("part3_main_container");
+          var textField = document.getElementById("textField");
+          
+          if (formContainer.style.display === "none") {
+            formContainer.style.display = "block";
+            textField.style.display = "none";
+          } else {
+            formContainer.style.display = "none";
+            textField.style.display = "block";
+          }
+        });
+      </script>
+    
+ 
+
+
+    <br><br>
+   
+
+<!-- The hidden text that appears when you click the button -->
+<div id="textField" style="display: none;">
+  This is the text that appears when you click the button.
+</div>
+
+   
+    <br><br><br>
+
+<div id="textField" style="display: none;">
+  This is the text that appears when you click the button.
+</div>
+    
+     <!-- Add an onclick event to the "NEXT>>" button -->
+    
+      <div class="center-button">
+        <button class="attractive-btn animated-btn" onclick="book()">ENJOY WITH US</button>
+      </div>
+      
+      
+
+
+	<!---Footer-->
+    <footer>
+
+        <div class="row" >
+            <div class="col">
+                <img src="images/icons/logo.png" style="width: 70px;height: 70px; " class="logoFooter">
+                <br><br>
+                <p><i>"Your ideal location for <br> memorable occasions."</i></p>
+            </div>
+            <div class="col">
+                    <h3>Office</h3>
+                    <p>THE ROYAL OAK</p>
+                    <br>
+                    <p>21, HIKKADUWA RD</p>
+                    <br>
+                    <p>COLOMBO 07</p>
+                    <p class="email-id">royaloak@gmail.com</p>
+                    <h4>+97 - 112458974</h4>
+            </div>
+            <div class="col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a class="active" href="../Register/Home.html"> HOME </a></li>
+                        <li><a href="../booking/about.html"> ABOUT </a></li>
+                        <li><a href="dining.html"> DINING </a></li>
+                        <li><a href="../events/events.html"> EVENTS </a></li>
+                        <li><a href="../booking/booking.php"> BOOK NOW </a></li>
+                        <li><a href="../contact/contact.html">CONTACT</a></li>
+                        <li><a href="../events/Terms&Cond.html">TERMS & CONDITIONS</a></li>
+                    </ul>
+            </div>
+            <div class="col">
+                    <h3>Follow us on Social Media</h3>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <!---Footer End-->
+
+</body>
+</html>

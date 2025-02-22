@@ -1,0 +1,33 @@
+body{
+    background-color:whitesmoke;
+}
+
+#TermsH1{
+    text-align: center;
+}
+
+#para1{
+    text-align: center;
+}
+
+#mainButn{
+    padding-top: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#terms{
+    padding-top: 60px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 75%
+}
+
+#Privacy{
+    display: none;
+    padding-top: 60px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 75%
+}
+

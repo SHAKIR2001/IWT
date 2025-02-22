@@ -1,0 +1,46 @@
+
+#part1_main_container {
+
+	margin-top: 70px;
+
+}
+
+#article_about {
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 43.4%;
+	max-zoom: 480px;
+}
+
+#section1 {
+
+}
+
+#section2 {
+
+}
+
+#section3 {
+
+}
+
+.article_headers {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.para2_contents {
+	text-align: center;
+	padding: 15px;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
+#header1 {
+	margin-top: 25px;
+}
+
+#para_last {
+	margin-bottom: 25px;
+}

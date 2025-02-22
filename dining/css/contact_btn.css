@@ -1,0 +1,29 @@
+
+
+/*--------------CONTACT--BTN---------------------*/
+
+#div_for_contact_btn {
+	z-index: 200;
+	position: fixed;
+	top: 90%;
+	right: 1%;
+	animation-name: ani1_contact_btn;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ani1_contact_btn {
+	from {right: -70px;}
+	to {right: 0px}
+}
+
+#contact_img {
+	width: 57%;
+	height: 57%;
+	padding: 5px;
+	border: 3px solid black;
+	border-radius: 50%;
+	/*background-color: rgba(255,255,255,0.8);*/
+	background-color: white;
+	cursor: pointer;
+}

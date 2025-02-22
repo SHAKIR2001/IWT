@@ -1,0 +1,232 @@
+
+#part1_container {
+	margin-bottom: 10px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#part2_para {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/*-------PART2----BEGIN------------*/
+
+#part2_container {
+	margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#_1st_dection_of_part2 {
+	margin-right: 20px;
+	width: 240%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#restaurant1 {
+
+}
+
+#restaurant2 {
+
+}
+
+.part2_section1_imgs {
+	width: 100%;
+	border:10px solid#cccccc;
+
+}
+/*.part2_section1_imgs:hover{
+	
+	transform: scale(0.5%);
+
+}*/
+
+.part2_section2_imgs {
+	width: 100%;
+	border:5px solid#cccccc;
+}
+
+
+#_2nd_dection_of_part2 {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+#part2_container h4{
+	color: white;
+	position: relative;
+	text-align: center;
+	top: -50px;
+}
+
+#restaurant3 {
+
+}
+
+#restaurant4 {
+
+}
+h2{
+	text-align: center;
+	 ;
+}
+#part3_main_container{
+	text-align: center;
+	font-size: 100%;
+
+	background-color:#cccccc;
+	 
+
+}
+.name{
+	border:2px solid black;
+	width:900px;
+	margin:auto;
+
+}
+
+.btn{
+	background-color:red;
+	border:4px solid ;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor:pointer;
+}
+.btn:hover
+  {
+	background-color:orange;
+  }
+
+  /* Style for the submit button */
+  .bttn {
+    background-color: black; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Hover effect for the submit button */
+.bttn:hover 
+{
+    background-color: #b3aa00; /* Change the background color for hover effect */
+}
+
+  /* Style for h4 elements inside the specified container */
+#part2_container h4 
+{
+	font-family: Arial, sans-serif; /* Change the font family to your preference */
+	font-size: 40px; /* Change the font size to your preference */
+	color: #767373; /* Change the text color to your preference */
+	font-weight: italic; /* Adjust font weight as needed (e.g., bold, normal) */
+	text-align: center; /* Center the text horizontally */
+	margin: 10px 0; /* Adjust the margin as needed */
+}
+  
+/* Style for the attractive button */
+.attractive-btn 
+{
+	background: linear-gradient(to bottom, #ff6600, #ff9900); /* Gradient background */
+	color: #fff; /* Text color */
+	border: none;
+	border-radius: 50px;
+	padding: 100px 100px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background 0.3s, transform 0.1s; /* Transition effects */
+  }
+  
+  /* Hover effect for the button */
+.attractive-btn:hover 
+{
+	background: linear-gradient(to bottom, #ff9900, #ff6600); /* Gradient background change */
+	transform: scale(1.05); /* Slight scaling on hover */
+}
+  /* Style for the button container */
+.center-button 
+{
+	text-align: center; /* Center-align the content inside the container */
+	margin-top: 20px; /* Adjust the margin as needed */
+}
+
+  /* Style for the button container */
+.center-button {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  /* Style for the button with animation */
+.animated-btn {
+	background: linear-gradient(to bottom, #ff6600, #ff9900);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 100px 200px;
+	font-size: 18px;
+	cursor: pointer;
+	animation: pulse 2s infinite; /* Apply the 'pulse' animation */
+}
+  
+  /* Animation keyframes for 'pulse' */
+  @keyframes pulse {
+	0% {
+	  transform: scale(1); /* Initial scale */
+	}
+	50% {
+	  transform: scale(1.05); /* Scale up at 50% of the animation */
+	}
+	100% {
+	  transform: scale(1); /* Back to normal scale at 100% */
+	}
+  }
+
+
+  /*click her button --------------------------------------*/
+
+  #div_for_click_here_button {
+	display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+  }
+
+  .click_here_button {
+    background-color: white;
+	width: 170px;
+	height: 40px;
+	position: absolute;
+	top: 20px;
+	cursor: pointer;
+  }
+
+
+  .btnlast {
+	width: 55px;
+	height: 30px;
+	margin-left: 50px !important;
+  }
+  
+  

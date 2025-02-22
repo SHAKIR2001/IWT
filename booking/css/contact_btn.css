@@ -1,0 +1,54 @@
+
+
+/*--------------CONTACT--BTN---------------------*/
+
+#div_for_moving_btn {
+	z-index: 200;
+	position: fixed;
+	top: 80%;
+	right: 1%;
+	animation-name: ani1_contact_btn;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ani1_contact_btn {
+	from {right: -70px;}
+	to {right: 1px}
+}
+
+#contact_img {
+	width: 57%;
+	height: 57%;
+	padding: 5px;
+	border: 2.3px solid black;
+	border-radius: 50%;
+	/*background-color: rgba(255,255,255,0.8);*/
+	background-color: white;
+	cursor: pointer;
+}
+
+/*--------------BACK--TO---TOP---------------------*/
+
+#back_to_top {
+	position: relative;
+	right: 2px;
+	margin-top: 10px;
+	display: none;
+}
+
+#to_top_img {
+	position: relative;
+	right: 1px;
+	width: 43px;
+    height: 43px;
+    border: none;
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+	animation-name: ani1_contact_btn;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+

@@ -1,0 +1,72 @@
+/*Footer*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 100;
+    background: linear-gradient(to right, #00093c, #2d0b00) ;
+    color: #fff;
+    /*border-top-left-radius: 125px; Only for other pages*/ 
+    padding: 50px 0 30px;
+    line-height: 15px;
+    
+}
+footer .row .col{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.row{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 20%;
+}
+
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.email-id{
+    width:fit-content;
+    border-bottom: lpx solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    font-weight: bold;
+}
+
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*Footer End*/

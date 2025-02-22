@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/event.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;700&family=Inconsolata:wght@300;400;600;700;800&family=
+		Poppins:wght@100;200;300;400;600;700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/471c4e19ff.js" crossorigin="anonymous"></script>
+		<script src="js/event.js"></script>
+		<title>Event</title>
+		
+		<link rel="stylesheet" href="header.css">
+	
+		</head>
+
+<body>
+
+	
+			<!---Header-->
+			<header style="top: 0;">
+			<div class="nav-position" style="position: sticky; top: 0;">
+				<div>
+					<img class="logoimg" src="images/icons/logo-removebg.png" alt="logo" ></img>
+				</div>
+	
+				<div class="nav" style="background: linear-gradient(to right, #00093c, #2d0b00) ; height: 76.5px;">
+					<ul>
+						<div class="topnav">
+							<li><a class="active" href="../Register/Home.html"> HOME </a></li>
+							<li><a href="../booking/about.html"> ABOUT </a></li>
+							<li><a href="../dining/dining.html"> DINING </a></li>
+							<li><a href="events.html"> EVENTS </a></li>
+							<li><a href="../booking/booking.php"> BOOK NOW </a></li>
+							<li><a href="../contact/contact.html">CONTACT</a></li>
+						</div>
+						
+						<div id="log_sign"> 
+							<li class="log">
+								<button class="login-button">
+									<a href="../Register/login.html" style="text-decoration: none;">Login
+									</a>
+								</button>
+							</li>
+							<li class="sign">
+								<button class="signup">
+									<a href="../Register/Register.html">
+										Sign Up
+									</a>
+								</button>
+							</li>
+						</div> 
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+	<div id="Event_head1">
+		<br><br><br>
+    	<h2>EVENTS & MEETINGS</h2>
+		<br>
+    </div>
+
+
+	<div id = "eventm">
+		
+		<div id ="Event_p1" class="event_div">
+			<image src = "images/meeting/pkg1.jpg" style = "width:100%;" class = "img">
+			<div id = "insidetext1"><p>Best choice for entry level meetings and gatherings, fully customizable for requrements</p></div>
+			<button class ="btn" onclick="go_up('insidetext1')">
+				Standard Meeting Room
+			</button>
+			
+		</div>
+		
+	
+		<div id ="Event_p2" class="event_div">
+			<image src = "images/meeting/pkg2.jpg" style = "width:100%;" class = "img">
+			<p class = "insidetext" id="insidetext2">Best choice for Mid-Range meetings and gatherings, fully customizable for requrements</p>
+			<button class="btn" onclick="go_up('insidetext2')">
+				Executive Boardroom
+			</button>
+		</div>
+	
+		<div id ="Event_p3" class="event_div">
+			<image src = "images/meeting/pkg3.jpg" style = "width:100%;" class = "img">
+			<p class = "insidetext" id="insidetext3">Best choice for High-End meetings and gatherings, fully customizable for requrements</p>
+			<button class="btn" onclick="go_up('insidetext3')">
+				Luxury Conference Suite
+			</button>
+			
+		</div>
+
+	</div>
+	<br><br>
+	<div id ="Events_head2">
+    	<h2>WEDDINGS & CELEBRATION</h2>
+    </div>
+	<br>
+
+	<div id = "eventm">
+		
+		<div id ="Event_p1" class="event_div">
+			<image src = "images/halls/wed1.jpg" style = "width:100%;" class = "img">
+			<p class = "insidetext" id="insidetext4">Best choice for Budget Weddings and gatherings, fully customizable for requrements</p>
+			<button class="btn"  onclick="go_up('insidetext4')">
+				Basic Event Hall
+			</button>
+		</div>
+		
+	
+		<div id ="Event_p2" class="event_div">
+			<image src = "images/halls/wed2.jpg" style = "width:100%;" class = "img">
+			<p class = "insidetext" id="insidetext5">Best choice for Mid-Range Weddings and gatherings, fully customizable for requrements</p>
+			<button class="btn"  onclick="go_up('insidetext5')">
+				Elegant Banquet Hall
+			</button>
+		</div>
+	
+		<div id ="Event_p3" class="event_div">
+			<image src = "images/halls/wed3.jpg" style = "width:100%;" class = "img">
+			<p class = "insidetext" id="insidetext6">Best choice for High-End Weddings and gatherings, fully customizable for requrements</p>
+			<button class="btn"  onclick="go_up('insidetext6')">
+				Luxury Ballroom
+			</button>
+		</div>
+
+	</div>
+	<br><br><br>
+
+	<div id="formH">
+		<h2>INQUIRE NOW</h2>
+	</div>
+	<br><br><br>
+
+	
+	<div id="inquireform" >
+        
+		<div class="name">
+        <form action="event_create.php"  method="POST" >
+		
+
+			
+				<br>
+            
+				<strong>
+					<label style="margin-left:50px; ">PACKAGE</label>
+
+					<select  placeholder="Please Select" style="width:150px; " name="package">
+
+						<option>Standard Meeting Room</option>
+						<option>Executive Boardroom</option>
+						<option>Luxury Conference Suite</option>
+						<option>Basic Event Hall</option>
+						<option>Elegant Banquet Hall</option>
+						<option>Luxury Ballroom</option>
+
+					</select>
+
+				<label style="margin-left:50px; ">DATE</label>
+
+				<input type="date" name="date">
+
+				<br>
+				<br>
+
+				<label style="margin-left:50px; ">Title</label>
+
+					<select  placeholder="Please Select" style="width:150px; " name="title">
+
+						<option>Mr</option>
+						<option>Ms</option>
+						<option>Mrs</option>
+						<option>Dr</option>
+						<option>Prof</option>
+					</select>
+
+				<label style="margin-left:40px; ">First Name</label>
+
+				<input  type="text" name="firstname">
+
+				<label style="margin-left:40px; ">Last Name</label>
+
+				<input  type="text" name="lastname" style="width:144px;" >
+			
+			<br>
+			<br>
+		
+
+				<label style="margin-left:50px; ">Email</label>
+
+				<input type="Email" name="email">
+
+				<label style="margin-left:40px; ">Phone</label>
+
+				<input type="Phone"  name="phone" style="width:150px;">
+
+			   <br>
+			   <br>
+
+			   <label style="margin-left:50px; ">Message</label>
+
+			   <br>
+
+			  <textarea rows="15" cols="108" style="margin-left:70px; "name="message">
+
+		      </textarea>
+
+		       <br>
+		       <br>
+               
+			    
+			  
+			 <input style="margin-left:50px; "  type="checkbox" id="box" onclick="checkAnsw()" name="confirm"><b style="font-size: 15px; text-transform:none;" >  I confirm All above details are true</b><br>
+				<p style="color:red; margin-left:70px; font-size: 10px; text-transform:none; display:blocked " id="warning">Please tick the button before submit</p>
+             
+				<br>
+			  
+			  <button type="submit" style="margin-left:45px; margin-bottom: 50px; width: 100px; height: 30px; " class="subbtn" id="subbtn1" name="submitbtn1" ><h3>SUBMIT</h3></button>
+
+			</strong>
+
+    	</form>
+
+		<form  action="view.php">
+
+			<button type="submit"  style="margin-left:45px; margin-bottom:30px; width: 100px; height: 30px; font-weight: bold;" class="btn3" id="btn3" >EDIT Details</button>
+		
+		</form>
+		</div>
+	</div>
+
+	<br><br>
+
+	<!---------- footer section begin-------------->
+	<footer>
+
+        <div class="row" >
+            <div class="col">
+                <img src="images/icons/logo.png" style="width: 70px;height: 70px; " class="logoFooter">
+                <br><br>
+                <p><i>"Your ideal location for <br> memorable occasions."</i></p>
+            </div>
+            <div class="col">
+                    <h3>Office</h3>
+                    <p>THE ROYAL OAK</p>
+                    <br>
+                    <p>21, HIKKADUWA RD</p>
+                    <br>
+                    <p>COLOMBO 07</p>
+                    <p class="email-id">royaloak@gmail.com</p>
+                    <h4>+94 112 458 974</h4>
+            </div>
+            <div class="col">
+                    <h3>Links</h3>
+                    <ul>
+						<li><a class="active" href="../Register/Home.html"> HOME </a></li>
+						<li><a href="../booking/about.html"> ABOUT </a></li>
+						<li><a href="../dining/dining.html"> DINING </a></li>
+						<li><a href="events.html"> EVENTS </a></li>
+						<li><a href="../booking/booking.php"> BOOK NOW </a></li>
+						<li><a href="../contact/contact.html">CONTACT</a></li>
+						<li><a href="../events/Terms&Cond.html">TERMS & CONDITIONS</a></li>
+                    </ul>
+            </div>
+            <div class="col">
+                    <h3>Follow us on Social Media</h3>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <!---Footer End-->
+
+</body>
+</html>

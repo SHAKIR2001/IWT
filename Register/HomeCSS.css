@@ -1,0 +1,236 @@
+@charset "utf-8";
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(34, 42, 73, 0.7),rgba(34, 42, 73, 0.7)),url("images/front3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*Text Box*/
+.text-box{
+    width: 90%; /*Letters width kurayum means odungum*/
+    color: #fff;
+    position: absolute; /*It go to the top when remove*/
+    top: 50%; /*will  go to top*/
+    left: 50%; /*will  go to left*/
+    transform: translate(-50%,-50%);  /*first one make text 50% center in x axis next is vertical*/
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    font-size: 18px;
+    margin: 10px 0px 40px;
+}
+.more-btn{
+    display: inline-block; /*No change*/
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    position: relative; /*No change*/
+    transition: 0.5s;
+}
+.more-btn:hover{
+    background-color: #f44336;
+    border: 1px solid #f44336;
+}
+
+
+
+/*------Services-------*/
+.course{
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.course h1{
+    font-size: 40px;
+    font-weight: 600; /*FONT THIKNES*/
+}
+.course p{
+    color: #777;
+    font-weight: 400;
+    font-size: 16px;
+    /*line-height: 22px;*/
+    padding: 10px;
+}
+
+.course-col{
+    flex-basis: 30%; /*The column will change to rows*/
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-top: 30px;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+.course-col h3{
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); /* 0 0 = hori & verti shadow 0*/
+}
+/*------Js image-----*/
+.JsImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .newslayout {
+    margin-bottom: 20px;
+  }
+  
+  .bttn1 {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .bttn1:hover{
+    background-color: #f44336;
+    border: 1px solid #f44336;
+  }
+
+  
+  #image1 {
+    max-width: 70%;
+    height: auto;
+  }
+  #para{
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+
+/*-------Vanues-------*/
+.campus{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.campus-col{
+    flex-basis: 30%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden; /*if i remove this the image border become square*/
+}
+.campus-col img{
+    width: 350px;
+    display:block; /*if removethis the red animation go down the image*/
+}
+.layer{
+    background: transparent;  /*background: rgba(226,0,0,.7);----this is the fist step then do the hover then change this to transperent*/
+    height: 100%;
+    width: 100%;
+    position: absolute; /*if remove no animation*/
+    top: 0; /*reduce red zone from top*/
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);  /*it will be bottom and center from X axxis*/
+    position: absolute;
+    opacity: 0; /*To hide h3/majesty*/
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;  /*the height of the London can come up*/
+    opacity: 1; /*unhide letter h3*/
+}
+
+/*------Facilities------*/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.facility-col{
+    flex-basis: 32%; /*size of div*/
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: left; /*Text strting in left side*/
+}
+.facility-col img{
+    width: 100%;
+    border-radius: 20px;
+}
+.facility-col h3{
+    margin-top:15px;
+    margin-bottom:16px;
+}
+.facility-col p{
+    padding: 0; /*if we increse it create gap btwn h3 and p*/
+}
+
+/*--------Testimonials--------*/
+.testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align:center;
+}
+.testomonial-col{
+    flex-basis: 44%;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    background: #fff3f3;
+    padding: 25px;
+    display: flex;
+    margin-top: 30px;
+}
+.testomonial-col img{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius:50%;
+}
+.testomonial-col p{
+    padding:0;
+}
+.testomonial-col h3{
+    margin-top: 15px;
+}
+.testomonial-col .fa{
+    color: #f44336;
+}
+
+/*-----Call to Action---------*/
+.cta{
+    width:73%;
+    margin: 100px auto; /*auto poadatti sariya centerla irukathu*/
+    padding:100px 0;
+    text-align:center;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("images/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+}
+.cta h1{
+    color: #fff;
+    font-size: 32px;  
+}
+
+

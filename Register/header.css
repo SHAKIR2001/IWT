@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+/*----------Header start--------*/
+/*Fixed header*/
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+/*Change the color of Royal Oak in the header to white */
+.logo{
+    padding-left: 8px;
+    color: white;
+}
+/*Color of menu bar items*/
+.topnav li a{
+    color: white;
+}
+
+.logoimg{
+    padding-top: 7px;
+    padding-left: 10px;
+    width: 80px;
+    height:55px;
+    margin-top: 3px;
+    align-items: left;
+    position: absolute; /*itha illamakina ithu topku poy headkeela varum*/
+    cursor: pointer;
+}
+
+/*If it removes it will make the header complex*/
+.nav{
+    padding: 10px 40px 10px 70px;
+    border:1px solid #000; /*No need*/
+    border-left: none;
+    border-right: none;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul li.logo{
+    flex:1;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.nav ul div.topnav a {
+    display: block;  /*used for creating vertical nav bar*/
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+.nav ul div.topnav a:hover {
+    color: #f44336;
+}
+.nav ul li{
+    float :left
+}
+
+.nav ul li button{
+    background-color: #e4b344;
+    border: none;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+.nav ul li button:hover{
+    background-color: silver;
+
+}
+
+.nav ul li button.signup a{
+    text-decoration: none;
+}
+
+/*Header End*/
+
+/*Footer*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 100;
+    background: linear-gradient(to right, #00093c, #2d0b00) ;
+    color: #fff;
+    padding: 50px 0 30px;
+   /* border-top-left-radius: 125px; */
+    line-height: 15px;
+    
+}
+footer .row .col{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.row{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /*below 2 no idea*/
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 20%; 
+}
+
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.email-id{
+    width:fit-content;
+    border-bottom: lpx solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/*Footer End*/
+
+
+
+
+
+
+
+
+

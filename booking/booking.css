@@ -1,0 +1,611 @@
+
+*{
+	scroll-behavior: smooth;
+}
+
+body {
+	min-width: 750px;
+}
+
+#progress_bar_main_container {
+	position: relative;
+	margin: 0 auto;
+}
+
+#progress_bar_2nd_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#progress_bar_3rd_container {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	width: 500px;
+}
+
+/*
+.active button {
+	background-color: #ddd !important;
+	font-weight: bold;
+}
+*/
+.steps {
+	text-align: center;
+	margin: 0 auto;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#progress1 {
+
+}
+
+.labels {
+}
+
+.btns {
+	margin-top: auto !important;
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+#progress_bar_3rd_container .steps button {
+	margin: 0 auto;
+	width: 35px;
+	height: 35px;
+	color: black;
+	background-color: #eee;
+	border: 3px solid black;
+	border-radius: 50%;
+	position: relative;
+	bottom: 0px;
+}
+
+#progress_bar {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.bar{
+	z-index: -1;
+	position: absolute;
+	top: 92px;
+	background-color: #aaa;
+	height: 3px;
+	width: 400px;
+}
+
+/*---------------booking_parts--------------------------*/
+
+#container_for_all_booking_parts_2nd {
+	background-color: white;
+	position: relative;
+	border: 1px solid black;
+	border-radius: 10px;
+	min-width: 700px;
+	width: 80%;
+	margin: 0 auto;
+}
+/*----------------CHECK--AVAILABILITY------------------*/
+
+
+#check_availability {
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#form1 {
+	border: 1px solid black;
+	border-radius: 10px;
+    padding: 30px
+}
+
+#check_availability_section1 {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#hr1_for_check_availability_section1 {
+	width:50px; height: 1px; 
+	position: relative;
+	background-color: black;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 58px !important;
+	border: none;
+}
+
+#check_availability_section2 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_for_submit_and_next {
+	width:100px;
+	height: 35px;
+	background-color: white;
+	margin-top: 70px;
+	cursor: pointer;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn_for_submit_and_next:hover {
+	background-color: #e4b344;
+	color: white;
+}
+
+/*----------------------RESERVATION------------------------*/
+
+#reservation {
+	display: block;
+}
+
+#container_for_all_reservation_parts {
+
+}
+
+#accommodation_main {
+	margin-top: 50px;
+}
+
+/*-------- rooms ----------*/ 
+
+.reservation_heading {
+	text-align: center;
+}
+
+#rooms_header , #suites_header , #meeting_header , #wedding_header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.reservation_hr1 {
+	margin-right: 10px;
+}
+
+.reservation_hr {
+	position: relative;
+	width: 55px;
+	height: 1px;
+	background-color: black;
+	border: none;
+}
+
+.reservation_hr2 {
+	margin-left: 10px;
+}
+
+.accmmodation_type_heading {
+	font-size: 17.15px;
+}
+
+#room_types_container , #suite_types_container , #meeting_types_container , #wedding_types_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+#room_type1 , #suite_type1 , #meeting_type1 , #wedding_type1 {
+	overflow: hidden;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.type {
+	max-width: 275px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.type:hover {
+	transform: scale(1.04);
+	transition: 2s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.accommodation_img_div {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.accommodation_img {
+	width: 100%;
+}
+
+#image_for_room_type1 {
+
+}
+
+.booking_btn {
+	border: 1px solid black;
+    border-radius: 6px;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    margin: 0 auto;
+    right: -63px;
+    background-color: #e4b344;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.booking_btn:hover {
+	background-color: silver;
+}
+
+.room_name , .suite_name , .meeting_name , .wedding_name {
+	text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    top: -25px;
+    left: -63px;
+}
+
+.uls_of_booking {
+	position: relative;
+    top: -10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#list_for_room_type1 {
+
+}
+
+#room_type2 , #suite_type2 , #meeting_type2 , #wedding_type2 {
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+#image_for_room_type2{
+
+}
+
+#list_for_room_type2 {
+
+}
+
+#room_type3 , #suite_type3 , #meeting_type3 , #wedding_type3 {
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+#image_for_room_type3 {
+
+}
+
+#list_for_room_type3 {
+
+}
+
+/*-------- rooms ----------*/ 
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*------------------- guest info & payment  -----------------*/ 
+
+
+#guest_info_and_payment {
+	display: block;
+	margin-top: 50px;
+}
+
+#container_for_all_guest_info_and_payment_parts{
+
+}
+
+.step3_heading {
+	text-align: center;
+}
+
+#reservation_details_div {
+	width: 550px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+/*-------------------- guest info- form ------------------*/
+
+#guest_info_form {
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 550px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#guest_info_form  p {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#guest_info_form h5 {
+	font-size: 15px;
+	padding-bottom: 0;
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#guest_info_div {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.align{
+	position: absolute;
+	right: 0;
+	margin-right: 150px;
+}
+
+.label_for_pwd2 {
+	position: relative;
+	top: 6px;
+}
+#guest_info_form label {
+	margin-left: 20px;
+}
+
+#span_for_pwd2 {
+	margin-left: 20px;
+}
+
+#next_button_for_guest_detail {
+	width: 100px;
+	height: 35px;
+	margin: auto;
+	background-color: white;
+	cursor: pointer;
+}
+
+#next_button_for_guest_detail:hover {
+	background-color: #e4b344;
+	color: white;
+}
+
+/*-------------------payment ------------------*/ 
+
+#payment_div {
+	width: 550px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#payment_method {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.payment_images {
+	margin-right: 25px;
+	margin-left: 25px;
+	width: 50px;
+	height: 35px;
+	cursor: pointer;
+}
+
+.para_align {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+#payment_form_div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#align_name_icons {			/* <------------ for label */
+	position: relative;
+	left: -2px;
+}
+
+.payment_icons {
+	position: absolute;
+	width: 23px;
+	height: auto;
+}
+
+#crd_name {
+	width: 300px;
+	padding-left: 22px;
+	margin-bottom: 16px;
+}
+
+#align_numbr_icons {		/* <------------ for label */
+	position: relative;
+	left: 2px;
+	top: 3px;
+}
+
+#card_number {
+	width: 300px;
+	padding-left: 23px;
+}
+
+
+#expire_and_cvv {
+	margin-top: 16px;
+	position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#expire {
+	width: 123px;
+}
+
+#div_for_lock_cvv {
+	position: relative;
+	top: 3px;
+	left: 1px;
+}
+
+#lock_for_cvv {			/*<-------lock img for cvv    */
+	width: 20px;
+	left: 2px;
+	position: absolute;
+}
+
+#cvv {
+	padding-left: 25px;
+	width: 123px;
+}
+
+
+					/*----------------- payment btn -----*/
+
+#div_pay_btn {
+	display:flex; 
+	flex-direction:row; 
+	justify-content: center; 
+	margin-top: 40px;
+}
+
+#pay_btn {
+	background-color: white;
+    width: 110px;
+    height: 35px;
+    cursor: pointer;
+}
+#pay_btn:hover {
+	background-color: #e4b344;
+	color: white;
+}
+
+/*---------------------- review and confirm -------------------------*/
+
+#review_and_confirm {
+	display: block;
+	margin-top: 50px;
+}
+
+#header_for_review {
+	text-align: center;
+}
+
+#success_msg_div {
+	width: 550px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#reservation_details_reviewing_div {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.save_txt {
+	font-size: 13.5px;
+	margin-bottom: 5px;
+}
+
+.save_btn {
+	width: 50px;
+    height: 23px;
+    font-size: 11px;
+    display: inline;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    background-color: #e4b344;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.save_btn:hover {
+	background-color: silver;
+}
+
+#details_of_reservation {
+
+}
+
+.view_details {
+	width: 550px;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#payment_details_reviewing_div {
+	position: relative;
+}
+
+#details_of_payment {
+
+}
+
+.view_details {
+
+}
+
+#printing_logo {
+	width: 55px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+.for_centering_div {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Confirm_Reservation {
+	width: 140px;
+	height: 35px;
+	margin: auto;
+	background-color: white;
+	cursor: pointer;
+}
+#Confirm_Reservation:hover {
+	background-color: #e4b344;
+	color: white;
+}
